@@ -52,7 +52,6 @@ public class StudentManagementApplicationMain {
                             System.out.println("Some error Occured While Inserting...Please try Again!");
                         }
                         continue;
-
                     case 2:
                         //Delete student
                         System.out.println("Enter Student ID To Delete: ");
@@ -123,7 +122,6 @@ public class StudentManagementApplicationMain {
                             System.out.println("Hey You have not updated Anything... Please choose option Correctly!");
                         }
                         continue;
-
                     case 5:
                         //Exit
                         System.out.println("Thank You For Using Application...If You Enjoyed, Please Experience It Again!" + user);
@@ -131,12 +129,9 @@ public class StudentManagementApplicationMain {
                         break;
                 }
             }
-
         } catch (Exception ex) {
             System.out.println("Exception while performing commands: " + ex.getMessage());
-
         }
-
         System.out.println("Connection Closed Successfully.......");
     }
 }
